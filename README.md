@@ -1,14 +1,17 @@
 # MyFirstReact
 npx create-react-app my-react-app
-
-mkdir my-react-app
 cd my-react-app
 npm init -y
+npm audit fix --force
+??? not working 
+
 npm install react react-dom
 cd my-react-app
 npm start
 
 
+
+nom u
 Open src/App.js (or the corresponding file where you want to create your component).
 import React from 'react';
 
