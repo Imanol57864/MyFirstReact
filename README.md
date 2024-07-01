@@ -1,29 +1,10 @@
 # MyFirstReact
-npx create-react-app my-react-app
-cd my-react-app
-npm init -y
-npm audit fix --force
-??? not working 
+## Pasos para la activiación de un proyecto ejemplo
+1. npx create-react-app my-react-app
+2. cd my-react-app
+3. npm init -y
+4. npm audit fix --force (twice)
+5. npm install react react-dom
+6. npm start
 
-npm install react react-dom
-cd my-react-app
-npm start
-
-
-
-nom u
-Open src/App.js (or the corresponding file where you want to create your component).
-import React from 'react';
-
-function App() {
-  return (
-    <div>
-      <h1>Hello, React!</h1>
-      <p>This is my first React app.</p>
-    </div>
-  );
-}
-
-export default App;
-
-http://localhost:3000
+Go visit : http://localhost:3000
